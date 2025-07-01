@@ -1,4 +1,4 @@
-const name = (a) => (b) => {
+const name = a => b => {
   if (!isNaN(Number(a)) && !isNaN(Number(b))) {
     a = Number(a);
     b = Number(b);
